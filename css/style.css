@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Container web page */
@@ -13,10 +14,10 @@
 
 
 /* Debug Zone*/
-.debug header{
+/* .debug header{
     background-color: #E57AE3;
     min-height: 100px;
-}
+} */
 
 .debug .big-ph{
     background-color: #E1D57A;
@@ -48,9 +49,12 @@
 }
 /* /Debug Zone*/ 
 
+
 /* Header */
-header{
-    height: 100px;
+header ul li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* Jumbotron section */
