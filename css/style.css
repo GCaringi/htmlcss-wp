@@ -47,10 +47,10 @@ body{
     min-height: 500px; 
 } */
 
-.debug footer{
+/* .debug footer{
     background-color: #8901FF;
     height: 50px;
-}
+} */
 /* /Debug Zone*/ 
 
 
@@ -171,5 +171,13 @@ h4{
 
 /* Footer */
 footer{
+    color: black;
+    text-align: center;
     margin-top: 10px;
 }
+
+footer::after{
+    content: "\2665";
+    color: red;
+}
+
