@@ -28,14 +28,14 @@ body{
     min-height: 400px;
 } */
 
-.debug .float-elem{
+/* .debug .float-elem{
     background-color: #0781FB;
-}
+} */
 
-.debug .top-col{
+/* .debug .top-col{
     background-color: #ABCFE6;
     min-height: 80px;
-}
+} */
 
 .debug .left-col , .debug .right-col{
     background-color: #ABCFE6;
@@ -130,6 +130,10 @@ header ul li{
     content: "";
     display: table;
     clear: both;
+}
+
+h1{
+    color: black;
 }
 
 .top-col{
