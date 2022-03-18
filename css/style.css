@@ -37,15 +37,15 @@ body{
     min-height: 80px;
 } */
 
-.debug .left-col , .debug .right-col{
+/* .debug .left-col , .debug .right-col{
     background-color: #ABCFE6;
     min-height: 500px;
 }
 
 .debug .mid-col{
     background-color: #ABCFE6;
-    min-height: 500px;
-}
+    min-height: 500px; 
+} */
 
 .debug footer{
     background-color: #8901FF;
@@ -94,6 +94,7 @@ header ul li{
     top: 0;
     left: 0;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 /* Black-trasperent layer */
@@ -104,6 +105,7 @@ header ul li{
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 
 /* Little title on the img */
@@ -149,6 +151,21 @@ h1{
     float: left;
     width: calc(60% - 30px);
     margin: 0px 15px;
+}
+
+.pic-in-col{
+    position: relative;
+}
+
+.pic-in-col img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+h4{
+    text-align: left;
+    margin: 15px 0px;
 }
 
 /* Footer */
