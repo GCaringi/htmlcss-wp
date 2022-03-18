@@ -1,0 +1,91 @@
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Container web page */
+.container{
+    width: 1280px;
+    margin: 20px auto;
+}
+
+
+/* Debug Zone*/
+.debug header{
+    background-color: #E57AE3;
+    min-height: 100px;
+}
+
+.debug .big-ph{
+    background-color: #E1D57A;
+    min-height: 400px;
+}
+
+.debug .float-elem{
+    background-color: #0781FB;
+}
+
+.debug .top-col{
+    background-color: #ABCFE6;
+    min-height: 80px;
+}
+
+.debug .left-col , .debug .right-col{
+    background-color: #ABCFE6;
+    min-height: 500px;
+}
+
+.debug .mid-col{
+    background-color: #ABCFE6;
+    min-height: 500px;
+}
+
+.debug footer{
+    background-color: #8901FF;
+    height: 50px;
+}
+/* /Debug Zone*/ 
+
+/* Header */
+header{
+    height: 100px;
+}
+
+/* Jumbotron section */
+.big-ph{
+    margin-top: 20px;
+}
+
+/* Article section */
+.float-elem{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.float-elem::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-col{
+    margin-bottom: 20px; 
+}
+
+.left-col, .right-col{
+    float: left;
+    width: 20%;
+}
+
+.mid-col{
+    float: left;
+    width: calc(60% - 30px);
+    margin: 0px 15px;
+}
+
+/* Footer */
+footer{
+    margin-top: 10px;
+}
