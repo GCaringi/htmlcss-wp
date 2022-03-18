@@ -96,7 +96,7 @@ header ul li{
     object-fit: cover;
 }
 
-/* Black layer */
+/* Black-trasperent layer */
 .lay-over{
     position: absolute;
     width: 100%;
@@ -104,6 +104,20 @@ header ul li{
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Little title on the img */
+.min-title{
+    position: absolute;
+    width: 50%;
+    top: 60%;
+    left: 5%;
+    color: white;
+}
+
+.min-title h2{
+    font-weight:300;
+    font-size: xx-large;
 }
 
 /* Article section */
